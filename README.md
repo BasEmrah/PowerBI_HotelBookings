@@ -1,3 +1,79 @@
+# PowerBI Project: Analysis of Hotel Reservation Data
+
+This project is focused on analyzing hotel reservation data and visualizing these analyses using PowerBI. The analyses included in the project are grouped under Customer Acquisition, Customer Retention, and Revenue Analysis.
+
+## Content
+
+The following files are included in this repository:
+- **Emrah_BAS_PowerBI_Project.pbix**: PowerBI file containing all analyses and visualizations within the project.
+- **Emrah_BAS_PowerBI_Project.ppsx**: PowerPoint presentation of the analyses and results made in the project.
+- **Emrah_BAS_PowerBI_Project_ME.png**: A visual related to Customer Acquisition analysis.
+
+## Dataset
+
+The dataset analyzed contains a table named `hotel_bookings`. The columns and their descriptions are as follows:
+
+1. `hotel`: Hotel type (city hotel or resort hotel)
+2. `is_canceled`: Reservation cancellation status (1: canceled, 0: not canceled)
+3. `lead_time`: Number of days between booking and check-in
+4. `arrival_date_year`: Year of arrival
+5. `arrival_date_month`: Month of arrival
+6. `arrival_date_week_number`: Week number of arrival
+7. `arrival_date_day_of_month`: Day of arrival
+8. `stays_in_weekend_nights`: Number of weekend nights stayed
+9. `stays_in_week_nights`: Number of week nights stayed
+10. `adults`: Number of adults
+11. `children`: Number of children
+12. `babies`: Number of babies
+13. `meal`: Type of meal booked
+14. `country`: Country of the guest
+15. `market_segment`: Market segment
+16. `distribution_channel`: Distribution channel
+17. `is_repeated_guest`: Repeated guest status (1: repeated, 0: new)
+18. `previous_cancellations`: Number of previous cancellations
+19. `previous_bookings_not_canceled`: Number of previous bookings not canceled
+20. `reserved_room_type`: Reserved room type
+21. `assigned_room_type`: Assigned room type
+22. `booking_changes`: Number of booking changes
+23. `deposit_type`: Deposit type
+24. `agent`: Agent making the reservation
+25. `company`: Company making the reservation
+26. `days_in_waiting_list`: Number of days in the waiting list
+27. `customer_type`: Customer type
+28. `adr`: Average Daily Rate
+29. `required_car_parking_spaces`: Number of required parking spaces
+30. `total_of_special_requests`: Total of special requests
+31. `reservation_status`: Reservation status
+32. `reservation_status_date`: Reservation status date
+
+## Analyses
+
+### Customer Acquisition Analysis
+Customer acquisition analysis is performed to evaluate the hotel's performance in gaining new customers. Key metrics used in this analysis include the number of new customers, customer distribution by market segments, and customer acquisition costs.
+
+### Customer Retention Analysis
+This analysis is conducted to evaluate customer loyalty and the rate of repeated customers. Metrics such as repeated customer rate, customer loyalty, and customer satisfaction are used in this analysis.
+
+### Revenue Analysis
+Revenue analysis is performed to assess the hotel's revenue performance. Financial metrics used in this analysis include Average Daily Rate (ADR), occupancy rate, and total revenue.
+
+## Usage
+
+You can open the project file with PowerBI Desktop to review the analyses and work with your own data. You can present the summary and key findings of the project using the PowerPoint presentation.
+
+## License
+
+This project is licensed under the MIT License. For more information, please refer to the `LICENSE` file.
+
+## Contact
+
+Feel free to reach out to me with any questions or feedback:
+
+- **Name**: Emrah BAS
+- **Email**: [bas_emrah@hotmail.com](mailto:bas_emrah@hotmail.com)
+
+---
+
 # PowerBI Projesi: Otel Rezervasyon Verilerinin Analizi
 
 Bu proje, otel rezervasyon verilerinin analiz edilmesi ve bu analizlerin PowerBI kullanılarak görselleştirilmesi üzerine kurulmuştur. Projede yer alan analizler Müşteri Edinme, Müşteriyi Elde Tutma ve Gelir Analizi başlıkları altında toplanmıştır.
@@ -70,4 +146,4 @@ Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 Herhangi bir sorunuz veya geri bildiriminiz için benimle iletişime geçmekten çekinmeyin:
 
 - **Ad**: Emrah BAS
-- **E-posta**: [email@example.com](mailto:bas_emrah@hotmail.com)
+- **E-posta**: [bas_emrah@hotmail.com](mailto:bas_emrah@hotmail.com)
